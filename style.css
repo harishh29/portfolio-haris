@@ -845,6 +845,8 @@ body.dark-theme{
   .about__skills-content{
     grid-template-columns: repeat(4, max-content);
   }
+
+  
 }
 
 /* For medium devices */
@@ -881,6 +883,7 @@ body.dark-theme{
 }
 
 @media screen and (min-width: 768px){
+  
   .aspiration__container{
     grid-template-columns: repeat(2, 320px);
   }
@@ -1000,6 +1003,7 @@ body.dark-theme{
   .home__button{
     justify-self: flex-start;
   }
+  
 
   .aspiration__container{
     grid-template-columns: repeat(3, 345px);
@@ -1063,6 +1067,7 @@ body.dark-theme{
     right: 3rem;
   }
 
+  
   .about__container{
     grid-template-columns: 500px 440px;
     align-items: center;
