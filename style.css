@@ -818,6 +818,7 @@ body.dark-theme{
   padding: 6px;
   font-size: 1.25rem;
   color: var(--title-color);
+  border: 1px solid var(--title-color);
   z-index: var(--z-tooltip);
   transition: bottom .4s, transform .4s, background-color .4s;
 }
